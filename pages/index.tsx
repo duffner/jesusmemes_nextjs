@@ -6,6 +6,7 @@ import { useRouter } from 'next/router'
 import { useEffect, useRef } from 'react'
 import Bridge from '../components/Icons/Bridge'
 import Evolve from '../components/Icons/Evolve'
+import OGSocial from '../public/og-image.jpg'
 import Logo from '../components/Icons/Logo'
 import Modal from '../components/Modal'
 import cloudinary from '../utils/cloudinary'
@@ -34,11 +35,11 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         <title>JesusMemes.com</title>
         <meta
           property="og:image"
-          content="https://nextjsconf-pics.vercel.app/og-image.jpg"
+          content={OGSocial.src}
         />
         <meta
           name="twitter:image"
-          content="https://nextjsconf-pics.vercel.app/og-image.jpg"
+          content={OGSocial.src}
         />
       </Head>
       <main className="mx-auto max-w-[1960px] p-4">
