@@ -95,7 +95,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </div>
       </main>
       <footer className="p-6 text-center text-white/80 sm:p-12">
-        <p>Thank you to C.E., R.D., and Many Others for their contributions!</p>
+        <p>Thank you to C.E., R.D., and many Others for their contributions!</p>
       </footer>
     </>
   )
