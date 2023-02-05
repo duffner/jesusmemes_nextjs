@@ -2,6 +2,7 @@ module.exports = {
   images: {
     formats: ['image/avif', 'image/webp'],
     domains: ['res.cloudinary.com'],
+    minimumCacheTTL: 31536000,
   },
   async headers() {
     return [
